@@ -26,7 +26,7 @@ somewhat unwieldy to write.
 Set up a virtualenv:
 
 ```
-virtualenv --python /usr/bin/python2.7 ~/venv/kiplot
+virtualenv --python /usr/bin/python2.7 --system-site-packages ~/venv/kiplot 
 source ~/venv/kiplot/bin/activate
 ```
 
